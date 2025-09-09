@@ -249,7 +249,8 @@ export const MenuDescription = styled.p`
 `;
 
 export const AddButton = styled.button`
-  width: 304px;
+  max-width: 304px;
+  width: 100%;
   height: 24px;
   text-align: center;
   background-color: ${theme.colors.corSecundaria};
