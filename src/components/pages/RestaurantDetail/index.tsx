@@ -68,7 +68,7 @@ const menuItems = [
 ];
 
 const RestaurantDetail: React.FC = () => {
-  const { id } = useParams();
+  useParams();
 
   return (
     <PageContainer>

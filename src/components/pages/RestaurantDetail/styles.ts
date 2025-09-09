@@ -251,7 +251,7 @@ export const MenuDescription = styled.p`
 export const AddButton = styled.button`
   width: 304px;
   height: 24px;
-  padding: 6px;
+  text-align: center;
   background-color: ${theme.colors.corSecundaria};
   color: ${theme.colors.corPrincipal};
   border: none;
